@@ -6,20 +6,14 @@
 
 #### Citation
 ~~~
-@article{delamor2023annotation,
-title = {Annotation Protocol and Crowdsourcing Multiple
-Instance Learning Classification of Skin Histological
-Images: the CR-AI4SkIN Dataset},
-journal = {Artificial Intelligence in medicine},
-volume = {},
-pages = {},
-year = {2023},
-issn = {},
-doi = {},
-url = {},
-author = {Rocío del Amor and Jose Pérez-Cano and Miguel López-Pérez and Liria Terradez and
-Jose Aneiros-Fernandez and Sandra Morales and Javier Mateos and Rafael Molina and
-Valery Naranjo}
+@article{del2023annotation,
+  title={Annotation protocol and crowdsourcing multiple instance learning classification of skin histological images: The CR-AI4SkIN dataset},
+  author={Del Amor, Roc{\'\i}o and P{\'e}rez-Cano, Jose and L{\'o}pez-P{\'e}rez, Miguel and Terradez, Liria and Aneiros-Fernandez, Jose and Morales, Sandra and Mateos, Javier and Molina, Rafael and Naranjo, Valery},
+  journal={Artificial Intelligence in Medicine},
+  volume={145},
+  pages={102686},
+  year={2023},
+  publisher={Elsevier}
 }
 ~~~
 
