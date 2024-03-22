@@ -1,0 +1,4 @@
+pandas<2
+scikit-learn
+gpflow==2.3.0
+gpflux==0.2.3
