@@ -1,6 +1,6 @@
 ### Code for replicating the results of the paper [Annotation Protocol and Crowdsourcing Multiple Instance Learning Classification of Skin Histological Images: the CR-AI4SkIN Dataset]()
 
-<img src="https://github.com/wizmik12/Crowdsourcing-MIL-Skin-Cancer/blob/main/overview.png" width="520">
+<img src="overview.png" width="520">
 
 
 
