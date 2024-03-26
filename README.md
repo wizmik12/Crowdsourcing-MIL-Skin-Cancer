@@ -24,34 +24,7 @@ The proposed method obtains an F1 score of 0.7911 on the test set, outperforming
 
 ## Data
 
-**Link to download the dataset:** *Coming soon. Please contact the authors.*
-
-Classes to be evaluated:
-
-* Class 0 --> Leiomyoma (lm)
-* Class 1 --> Leiomyosarcoma (lms)
-* Class 2 --> Dermatofibroma (df)
-* Class 3 --> Dermatofibrosarcoma (dfs)
-* Class 4 --> Cellular spindle cell melanoma (mfc)
-* Class 5 --> Fibroxanthoma (fxa)
-* Class 6 --> Spindle cell squamous carcinoma (cef)
-
-Binary classification:
-
-* Benign neoplasms: lm, df.
-* Malignant neoplasms: lms, dfs, mfc, cef.
-
-Fibroxanthoma (fxa) neoplasms are in between benign and malignant, so it may be better not to use them for this initial study.
-In the data folder you can find 4 files:
-
-* train.csv: The training split of patients.
-* validation.csv: The validation split.
-* test.csv: The test split
-* reg_dict.pickle: Contains a python dictionary where for each patient you have a list of files that represents some region of interest.
-
-An initial analysis of the dataset is done in the notebook First_analysis.ipynb. There is also described the process of generating the csv files.
-
-The columns in the files above can be described as follows. There are 9 columns per marker, the prefix is the first 8 columns is the type of neoplasia and the suffix is the identifier of the marker. The 9th column is an aggregation of the other 8. It represents whether it is more probable to be malignant of benign. Being 1 malignant and 0 benign. When both classes are equally probable there is a NaN. At the end there is one last column call MV (Majority Vote). It is the aggregation of all the markers representing the majority vote for the class malignant.
+**Link to download the dataset:** [![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.10880652.svg)](https://doi.org/10.5281/zenodo.10880652)
 
 ## Code
 ### Installation
